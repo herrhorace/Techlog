@@ -1,0 +1,22 @@
+.users-parent {
+    border: 1px solid #eee;
+    margin: 0 auto;
+    padding: 25px;
+    width: 310px;
+}
+
+.navbar-right > li {
+    display: inline-block !important;
+    position: relative;
+}
+
+.navbar-brand > img {
+    bottom: 14px;
+    height: 47px;
+    position: relative;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
