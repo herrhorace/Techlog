@@ -26,7 +26,7 @@
                                             <td><?php echo $logs['Unit']['created']; ?></td>
                                             <td><?php echo $logs['Unit']['name']; ?></td>
 											<td><?php echo $logs['Unit']['modified']; ?></td>
-											<td class="center"><?php if($role == 'admin') { ?><a href="/dashboards/delete_log/<?php echo $logs['Unit']['id']; ?>">delete</a><?php } ?></td>
+											<td class="center"><?php if($role == 'admin') { ?><a href="/logs/delete_log/<?php echo $logs['Unit']['id']; ?>">delete</a><?php } ?></td>
                                         </tr>
 									<?php }  ?>                                    </tbody>
                                 </table>

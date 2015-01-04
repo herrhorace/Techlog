@@ -10,7 +10,7 @@
 
 	<h3>Add Log</h3>
 	<?php
-	echo $this->Form->create('Dashboard', array('type'=>'file'));
+	echo $this->Form->create('Log', array('type'=>'file'));
 			echo $this->Form->input('title', array('placeholder'=>'name', 'div'=>'form-group', 'class'=>'form-control'));
 			echo $this->Form->textarea('notes', array('placeholder'=>'description', 'div'=>'form-group', 'class'=>'form-control'));
 			echo $this->Form->input('location', array('placeholder'=>'location', 'div'=>'form-group', 'class'=>'form-control'));

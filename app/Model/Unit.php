@@ -5,7 +5,7 @@ Class Unit extends AppModel  {
 
 		public $belongsTo = array(
 		
-			'Dashboard'=> array(
+			'Log'=> array(
 			));
 			
 		public $hasAndBelongsTo = array(

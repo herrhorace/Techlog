@@ -1,6 +1,6 @@
 <?php
 
-class Dashboard extends AppModel {
+class Log extends AppModel {
 
 	public $belongsTo = array('User'=>array(
 		'className'=>'User',

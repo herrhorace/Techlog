@@ -10,7 +10,7 @@ function initialize() {
   map = new google.maps.Map(document.getElementById('map-canvas'),
       mapOptions);
 	  
-    var kmzLayer = new google.maps.KmlLayer('<?php echo $data['Dashboard']['kmz'] ?>');
+    var kmzLayer = new google.maps.KmlLayer('<?php echo $data['Log']['kmz'] ?>');
     kmzLayer.setMap(map);
 }
 

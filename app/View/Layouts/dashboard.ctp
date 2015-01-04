@@ -80,10 +80,10 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                             <a href="#"><i class="fa fa-table fa-fw"></i> Flight Logs<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/dashboards/data" id="loaddata"><i class="fa fa-table fa-fw"></i> View Logs</a>
+                                    <a href="/logs/data" id="loaddata"><i class="fa fa-table fa-fw"></i> View Logs</a>
                                 </li>
                                 <li>
-                                    <a href="/dashboards/add_log" id="add" class=""><i class="fa fa-plus fa-fw"></i> Add Log</a>
+                                    <a href="/logs/add_log" id="add" class=""><i class="fa fa-plus fa-fw"></i> Add Log</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
