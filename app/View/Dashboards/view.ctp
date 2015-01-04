@@ -18,18 +18,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>
 
-<!--<script type="text/javascript">
-  function initialize() {
-    var myOptions = {
-      center: new google.maps.LatLng(58.33, -98.52),
-      zoom: 11,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-    var kmzLayer = new google.maps.KmlLayer('http://xeenat.com/energy/data.kmz');
-    kmzLayer.setMap(map);
-  }
-</script>-->
+
 
 <div style="height:600px; width:100%;" id="map-canvas">
 </div>
