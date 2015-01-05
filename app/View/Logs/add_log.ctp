@@ -1,7 +1,4 @@
 
-<script src="//code.jquery.com/jquery-1.9.1.js"></script>
-<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-<link rel="stylesheet" href="/resources/demos/style.css">
 
 
 <div class="add_ondemand col-md-6">
@@ -22,35 +19,5 @@
 			echo $this->Form->submit('Add log', array('class'=>'btn btn-default')); ?>
 	<?php $this->form->end(); ?>
 </div>
-
-
-<script>
-/*$("#DashboardAddForm").submit(function(e)
-{
- 
-    var formObj = $(this);
-    var formURL = formObj.attr("action");
-    var formData = new FormData(this);
-    $.ajax({
-        url: formURL,
-    type: 'POST',
-        data:  formData,
-    mimeType:"multipart/form-data",
-    contentType: false,
-        cache: false,
-        processData:false,
-    success: function(data, textStatus, jqXHR)
-    {
- 
-    },
-     error: function(jqXHR, textStatus, errorThrown)
-     {
-     }         
-    });
-    e.preventDefault(); //Prevent Default action.
-    e.unbind();
-});
-$("#DashboardAddForm").submit(); *///Submit the form 
-</script>
 
 

@@ -66,7 +66,7 @@ Class LogsController extends AppController  {
                 if ( $uploadData2['size'] == 0 || $uploadData2['error'] !== 0) { // checks for the errors and size of the uploaded file
                     return false;
                 }
-		 $uploadData = $this->data['Dashboard']['kmz'];
+		 $uploadData = $this->data['Log']['kmz'];
                 if ( $uploadData['size'] == 0 || $uploadData['error'] !== 0) { // checks for the errors and size of the uploaded file
                     return false;
                 }				
@@ -87,7 +87,8 @@ Class LogsController extends AppController  {
                 if (!move_uploaded_file($uploadData['tmp_name'], $uploadPath)) {
                     return false;
                 }
-				
+			
+			$this->request->data['Log']['user_id'] = $this->Auth->user('id');
             $this->request->data['Log']['url'] = getRandomString();
             $this->request->data['Log']['log'] = $filename2;
 			$this->request->data['Log']['kmz'] = $filename;
@@ -97,7 +98,7 @@ Class LogsController extends AppController  {
 				$this->Session->setFlash(__('log added'));
 				$this->redirect($this->referer());
 			} else {
-				$this->Session->setFlash(__('movie added'));
+				$this->Session->setFlash(__('log added'));
 			}	
 		}
 	}
@@ -129,9 +130,9 @@ Class LogsController extends AppController  {
  
  public function view($url)  {
  
- $data = $this->Log->findByUrl($url);
- 
- $this->Set('data', $data);
+			 $data = $this->Log->findByUrl($url);
+			 
+			 $this->Set('data', $data);
  
  }
  
