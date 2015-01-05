@@ -100,7 +100,24 @@ body {
 /* Sidebar Menu Styles */
 
 .navbar-static-side ul li {
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid #444;
+}
+
+.nav > li > a {
+    color: #eee !important;
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #222 !important;
+    text-decoration: none;
+}
+
+.collapse.in {
+    background: none repeat scroll 0 0 #555;
+    display: block;
 }
 
 .sidebar-search {
