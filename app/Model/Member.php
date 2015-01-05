@@ -12,6 +12,12 @@ Class Member extends AppModel  {
 			    'User'=> array(
 			));
 	
-	
+		public $belongsTo = array(
+		
+			'Unit'=> array(
+			),
+			
+			'Role'=> array(
+			));	
 	
 }

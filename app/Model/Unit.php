@@ -3,14 +3,17 @@
 Class Unit extends AppModel  {
 
 
-		public $belongsTo = array(
-		
-			'Log'=> array(
-			));
 			
 		public $hasAndBelongsTo = array(
 			    'User'=> array(
 			));
+			
+		public $hasMany = array(
+			    'Member'=> array(
+			),
+			    'Log'=> array(
+			)			
+			);
 	
 	
 	

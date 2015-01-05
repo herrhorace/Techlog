@@ -101,13 +101,16 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-group fa-fw"></i> Personnel<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-group fa-fw"></i> Personnel Management<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="/users/" id="loadusers"><i class="fa fa-group fa-fw"></i> View Personnel</a>
+                                    <a href="/members/add_role" id="loadusers"><i class="fa fa-group fa-fw"></i> Add Roles</a>
                                 </li>
                                 <li>
-                                    <a href="/users/add" id="adduser" class=""><i class="fa fa-male"></i> Add Personnel</a>
+                                    <a href="/members/view_crew" id="loadusers"><i class="fa fa-group fa-fw"></i> View Personnel</a>
+                                </li>
+                                <li>
+                                    <a href="/members/add" id="adduser" class=""><i class="fa fa-male"></i> Add Personnel</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
