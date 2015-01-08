@@ -14,6 +14,7 @@
 			if($role == 'admin')  {
 				echo $this->Form->input('unit_id', array('option'=> $units, 'class'=>'form-control')); 
 			};
+			    echo $this->Form->input('system_id', array('option'=> $systems, 'class'=>'form-control')); 
 			echo $this->Form->input('kmz', array('type' => 'file','label' => 'KMZ file', 'empty' => true));
 			echo $this->Form->input('log', array('type' => 'file','label' => 'Log file', 'empty' => true));
 			echo $this->Form->submit('Add log', array('class'=>'btn btn-default')); ?>

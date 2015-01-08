@@ -43,6 +43,9 @@ Class LogsController extends AppController  {
 	
 	$units = $this->Log->Unit->find('list');
 	$this->set('units', $units);
+	
+	$systems = $this->Log->System->find('list');
+	$this->set('systems', $systems);
 	//new code
    
    //end new code

@@ -115,6 +115,24 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fighter-jet fa-fw"></i> UAV System Management<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/parts/add" id="loadusers"><i class="fa fa-plus fa-fw"></i> Add UAV Parts</a>
+                                </li>
+                                <li>
+                                    <a href="/parts/view" id="loadusers"><i class="fa fa-group fa-fw"></i> View UAV Parts</a>
+                                </li>
+                                <li>
+                                    <a href="/systems/add" id="adduser" class=""><i class="fa fa-male"></i> Add System</a>
+                                </li>
+                                <li>
+                                    <a href="/systems/view" id="adduser" class=""><i class="fa fa-male"></i> View Systems</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
                     </ul>
                     <!-- /#side-menu -->
                 </div>

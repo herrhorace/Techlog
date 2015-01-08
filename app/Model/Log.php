@@ -7,7 +7,10 @@ class Log extends AppModel {
 		),
 		
 		'Unit'=> array(
-			)		
+			),
+
+		'System'=> array(
+			)			
 		
 		);
 				
